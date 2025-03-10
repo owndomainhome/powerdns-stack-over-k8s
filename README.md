@@ -4,7 +4,7 @@ Contribution by:
 
 * OWNDOMAINHOME SAS (ODH)
 * https://github.com/owndomainhome
-* owndomainhome.co
+* https://owndomainhome.co
 
 We give you a set of Kubernetes manifests (yaml) to deploy PowerDNS AS (Authoritative Server), RES (Resolver), Dist (DNSDist) roles using minimal configs.
 
