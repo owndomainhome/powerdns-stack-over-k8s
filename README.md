@@ -16,7 +16,7 @@ Main requirements:
 * MetalLB to expose DNS Dist component to the world. * You can use another LB solution, you only must change the specific annotations for them.
 * Cert-Manager implementation u other option for TLS secrets on ingress resources.
 
-Manifests can be found at https://github.com/PowerDNS/pdns/tree/master/kubernetes-manifests
+Manifests can be found at https://github.com/owndomainhome/powerdns-stack-over-k8s
 
 # Usage
 
