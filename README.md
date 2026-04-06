@@ -29,7 +29,3 @@ We suggest use secrets for keys and another DB flavor if you want multiples AS o
 # Privileged ports
 
 We built the manifests to avoid the use of `NET_BIND_SERVICE` capability. We bind the roles to the 5353 port, because all comunication between roles is internal. Just the 'dist' role is exposed using LB solution over 53 (tcp/udp) port.
-
-# About .gitlab-ci.yaml file
-
-This a rustic and very basic pipeline file to just deploy the three roles (AS, RES, DIST) and get a working solution.
