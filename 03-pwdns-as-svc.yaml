@@ -12,7 +12,7 @@ spec:
       port: 53
       targetPort: 5353
     - name: pwds-as-tcp
-      protocol: UDP
+      protocol: TCP
       port: 53
       targetPort: 5353
   selector:
